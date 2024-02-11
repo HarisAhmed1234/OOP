@@ -53,7 +53,7 @@ int main() {
 
         cout << "Do you want to add another book? (y/n): ";
         cin >> choice;
-        cin.ignore(); // Ignore newline character
+        cin.ignore();
     } while (choice == 'y' || choice == 'Y');
 
     cout << "\nLibrary Inventory:\n";
