@@ -52,7 +52,7 @@ public:
         cout<< "Author:"<< author<< endl;
         cout<<"ISBN: " <<isbn <<endl;
         cout <<"Total Pages:"<< total_pages<<endl;
-        cout<<"Pages Read: "<<pages_read<<endl;
+        cout<<"Pagess Read: "<<pages_read<<endl;
     }
 };
 
