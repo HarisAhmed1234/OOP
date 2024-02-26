@@ -20,27 +20,26 @@ public:
         officeFurniture[2] = furniture3;
     }
 
-    // Method to display office information
+    // Method to display 
     void display() const {
         cout<< "Office Location: "<<officeLocation << endl;
         cout <<"Seating Capacity:"<<seatingCapacity << endl;
-        cout << "Office Furniture:";
+        cout<< "Office Furniture:";
         for (int i = 0; i < 3; ++i) {
             cout << officeFurniture[i];
             if (i < 2 && officeFurniture[i + 1] != "") {
-                cout << ", ";
+                cout<< ", ";
             }
         }
-        cout << endl;
+        cout<<endl;
     }
 };
 
 int main() {
     Office office1; // Default constructor
-    Office office2("Downtown", 45, "Table", "Chair"); // Specify location, seating capacity, and furniture
-    Office office3("Suburb", 15); // Specify location and seating capacity
-
-    // Display information for each office
+    Office office2("Downtown", 45, "Table", "Chair"); 
+    Office office3("Suburb", 15);
+    // Display information for ech
     cout<<"Office 1 Information:"<<endl;
     office1.display();
     cout << endl;
