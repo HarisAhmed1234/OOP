@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ctime> // Add this line for srand
+#include <ctime> // for srand
 
 using namespace std;
 
