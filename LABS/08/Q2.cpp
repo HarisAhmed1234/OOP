@@ -55,6 +55,8 @@ class Wizard: public Player{
 };
 
 int main(){
+	 cout<<"-Haris Ahmed BsAi 23k6005-"<<endl;
+   	 cout<<endl;
 	Wizard wiz(70,96,82,"Abacadabra");
 	wiz.WizardDisplay();
 }
