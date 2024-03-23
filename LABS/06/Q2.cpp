@@ -50,6 +50,8 @@ public:
 };
 
 int main() {
+    cout<<"-Haris Ahmed BsAi 23k6005-"<<endl;
+    cout<<endl;
     int imgdata[6] = {1, -2, 3, -4, 5, 6};
 
     image original(2, 3, imgdata);
