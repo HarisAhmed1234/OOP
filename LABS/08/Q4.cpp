@@ -48,6 +48,8 @@ class GraduateStudent: public Student,public Teacher{
 };
 
 int main(){
+	cout<<"-Haris Ahmed BsAi 23k6005-"<<endl;
+    	cout<<endl;
 	GraduateStudent grad1("Haris",19,6005,'A',"OOP",23);
 	grad1.Display();
 }
