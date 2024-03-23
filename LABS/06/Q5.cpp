@@ -83,6 +83,8 @@ public:
 };
 
 int main() {
+    cout<<"-Haris Ahmed BsAi 23k6005-"<<endl;
+    cout<<endl;
     Student student("23k6005", "Haris Ahmed");
 
     Course course1("CS1002", "Object-oriented Programming", 3);
