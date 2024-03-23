@@ -17,15 +17,17 @@ inline double calculateStrikeRate(int runs, int balls) {
 }
 
 int main() {
+    cout<<"-Haris Ahmed BsAi 23k6005-"<<endl;
+    cout<<endl;
     int runs, outs, balls;
     
-    cout << "Enter total runs scored: ";
-    cin >> runs;
-    cout << "Enter number of times out: ";
-    cin >> outs;
+    cout<< "Enter total runs scored: ";
+    cin>>runs;
+    cout<<"Enter number of times out: ";
+    cin>>outs;
 
-    cout << "Enter total balls faced: ";
-    cin >> balls;
+    cout<<"Enter total balls faced: ";
+    cin>>balls;
 
     double battingAverage = calculateBattingAverage(runs, outs);
     
