@@ -63,6 +63,7 @@ public:
 
 int main() {
     cout<<"-Haris Ahmed BsAi 23k6005-"<<endl;
+    cout<<endl;
     int transactions1[] = {600, -500, 700};
     int numTrans1 = sizeof(transactions1) / sizeof(transactions1[0]);
 
