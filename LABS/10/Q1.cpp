@@ -1,21 +1,23 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 class Logo {
 private:
-    std::string img;
+    string img;
 
     friend class Platform;
 
 public:
     Logo() : img("Blue Bird") {}
 
-    void setImg(std::string newImg) {
+    void setImg(string newImg) {
         img = newImg;
     }
 
     void display() {
-        std::cout << "Logo: " << img << std::endl;
+        cout << "Logo: " << img << endl;
     }
 };
 
@@ -27,7 +29,7 @@ public:
     Platform() : graphic() {}
 
     void display() {
-        std::cout << "Platform: Twitter" << std::endl;
+        cout << "Platform: Twitter" << endl;
         graphic.display();
     }
 
@@ -44,7 +46,7 @@ public:
     Server() : plat() {}
 
     void display() {
-        std::cout << "Server: CPP" << std::endl;
+        cout << "Server: CPP" << endl;
         plat.display();
     }
 };
