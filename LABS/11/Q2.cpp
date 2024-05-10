@@ -38,7 +38,7 @@ public:
         if (amount <= balance) {
             balance -=amount;
         } else {
-            cout <<"Insufficient funds!"<<endl;
+            cout <<"Insufficient funds!!"<<endl;
         }
     }
 
