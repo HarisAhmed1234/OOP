@@ -44,7 +44,7 @@ public:
     }
 
     void calculateFuelEfficiency()override {
-        cout<<"Fuel efficiency for car: "<<fuelCapacity/10 << " miles per gallon." << endl;
+        cout<<"Fuel efficiency for car: "<<fuelCapacity/10 << " mile per gallon." << endl;
     }
 };
 
@@ -65,7 +65,7 @@ public:
     }
 
     void calculateFuelEfficiency() override {
-        cout<<"Fuel efficiency for truck: " <<cargoCapacity / 5<<" miles per gallon." << endl;
+        cout<<"Fuel efficiency for truck: " <<cargoCapacity / 5<<" mile per gallon." << endl;
     }
 };
 
